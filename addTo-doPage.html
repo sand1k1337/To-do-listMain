@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/todoList.css">
+    <title>Add to-do page</title>
+</head>
+<body>
+    <div class="todo-input-grid">
+        <input placeholder="To-do name"
+          class="js-name-input name-input" maxlength="25">
+        <input type="date"
+          class="js-due-date-input due-date-input">
+
+         <!-- <hr style="opacity: 0.1;" class="hr">
+          <hr style="opacity: 0.1;" class="hr"> --> 
+    
+
+    
+    <br>
+        <br>
+
+    <a href="todoList.html">
+<button style="margin-left: 600px; margin-right: 15px; background-color: rgb(43, 41, 41); color: white; border: none; padding: 12px 50px; border-radius: 15px; ">Back</button>
+</a>
+
+<a href="todoList.html">
+<button style=" background-color: rgb(63, 114, 11); color: white; border: none; padding: 12px 60px; border-radius: 3px;" onclick="
+addTodo();
+" class="add-todo-button">Add</button>
+
+</a>
+
+<script src="scripts/todolist.js"></script>
+</body>
+</html>
